@@ -5,6 +5,7 @@ export const fadeIn = (duration = 2)=> ({
   initial: { opacity: 0 },
   animate: { opacity: 1 },
   transition: { duration },
+  motion
 });
 // Hiệu ứng di chuyển
 export const slideIn = (direction = "left", distance = 100) => ({

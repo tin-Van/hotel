@@ -1,0 +1,21 @@
+.flatpickr-calendar {
+    border-radius: 8px; /* ✅ Bo góc lịch */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .flatpickr-day {
+    font-size: 14px; /* ✅ Chỉnh kích thước chữ */
+   
+  }
+  
+  .flatpickr-day.selected {
+    background-color: #007bff !important; /* ✅ Màu nền khi chọn */
+    color: white !important;
+  }
+  .flatpickr-input {
+    border-radius: 5px; /* ✅ Bo góc lịch */
+    font-size: 16px; /* ✅ Chỉnh kích thước chữ */
+    padding: 5px; /* ✅ Giữ khoảng cách hợp lý */
+    border-color: rgb(204, 204, 204);
+  }
+  
